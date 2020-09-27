@@ -3,6 +3,10 @@
 #include <stdbool.h>
 #include <time.h> 
 
+/*
+ * ALUNOS:LEONARDO COUTO, CLARICE BRAGA, YASMIN ZORZAN
+ */
+
 
 void Busca(int tamanho,int elementoProcurado,int posicao,bool testarForaDaLista,bool buscaComDelay)
 
@@ -103,29 +107,29 @@ void Busca(int tamanho,int elementoProcurado,int posicao,bool testarForaDaLista,
 int main(int argc, char *argv[]) {
 	
 
-printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA #01 SEM DELAY)***---------------------\n");
+printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA #01 SEM DELAY)***---------------------\n");
 
 	Busca(11,50,2,false,false);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 SEM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA #01 SEM DELAY)---------------------\n");
 
 	Busca(11,50,6,false,false);
 	
-		printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA #01 SEM DELAY)--------------------\n");
+		printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA #01 SEM DELAY)--------------------\n");
 		
 	Busca(11,50,11,true,false);
 	
 	printf("--------------------****---------------------\n");
 	
-    printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA #01 COM DELAY)***---------------------\n");
+    printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA #01 COM DELAY)***---------------------\n");
 
 	Busca(11,50,2,false,true);
 	
-printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM DELAY)---------------------\n");
+printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA #01 COM DELAY)---------------------\n");
 
 	Busca(11,50,6,false,true);
 	
-		printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA #01 COM DELAY)--------------------\n");
+		printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA #01 COM DELAY)--------------------\n");
 		
 	Busca(11,50,11,true,true);
 	
@@ -133,64 +137,70 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM DE
 	
 
 	
-	printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA#02 SEM DELAY)***---------------------\n");
+	printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA#02 SEM DELAY)***---------------------\n");
 
 	Busca(21,50,2,false,false);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA#02 SEM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA#02 SEM DELAY)---------------------\n");
 
 	Busca(21,50,11,false,false);
 	
-		printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA#02 SEM DELAY)--------------------\n");
+		printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA#02 SEM DELAY)--------------------\n");
 		
 	Busca(21,50,21,true,false);
 	
 	printf("--------------------****---------------------\n");
 	
-    printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA #02 COM DELAY)***---------------------\n");
+    printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA #02 COM DELAY)***---------------------\n");
 
 	Busca(21,50,2,false,true);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #02 COM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA #02 COM DELAY)---------------------\n");
 
 	Busca(21,50,11,false,true);
 	
-		printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA #02 COM DELAY)--------------------\n");
+		printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA #02 COM DELAY)--------------------\n");
 		
 	Busca(21,50,21,true,true);
 	
 	printf("--------------------****---------------------\n");
 	
 
-	printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA#03 SEM DELAY)***---------------------\n");
+	printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA#03 SEM DELAY)***---------------------\n");
 
 	Busca(42,50,2,false,false);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA#03 SEM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA#03 SEM DELAY)---------------------\n");
 
 	Busca(42,50,21,false,false);
 	
-	printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA#03 SEM DELAY)--------------------\n");
+	printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA#03 SEM DELAY)--------------------\n");
 		
 	Busca(42,50,42,true,false);
 	
 	printf("--------------------****---------------------\n");
 	
-    printf("--------------------*ELEMENTO NA SEGUNDA POSIÇÃO (LISTA #03 COM DELAY)***---------------------\n");
+    printf("--------------------*ELEMENTO NA SEGUNDA POSIÃ‡ÃƒO (LISTA #03 COM DELAY)***---------------------\n");
 
 	Busca(42,50,2,false,true);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #03 COM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÃ‡ÃƒO MEDIANA(6) (LISTA #03 COM DELAY)---------------------\n");
 
 	Busca(42,50,21,false,true);
 	
-		printf("--------------------****ELEMENTO SEM POSIÇÃO (ELEMENTO NÃO ENCONTRADO)(LISTA #03 COM DELAY)--------------------\n");
+		printf("--------------------****ELEMENTO SEM POSIÃ‡ÃƒO (ELEMENTO NÃƒO ENCONTRADO)(LISTA #03 COM DELAY)--------------------\n");
 		
 	Busca(42,50,42,true,true);
 	
 	printf("--------------------****---------------------\n");
 	return 0;
 }
+
+
+
+	
+	
+
 
 
 
