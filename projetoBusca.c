@@ -48,7 +48,7 @@ void Busca(int tamanho,int elementoProcurado,int posicao,bool testarForaDaLista,
 		
 		
 	  inicio= clock();
-	  printf("Iniciando a rotina.,tempo inicial    = %ld\n", inicio);
+	  printf("Iniciando a rotina.,tempo inicial (milisegundos)    = %ld\n", inicio);
 	
 	
 	  for(j; j <= tamanho ; j++) 
@@ -141,7 +141,7 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM 
 
 	Busca(21,50,2,false,false);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA#02 SEM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÇÃO MEDANA(11) (LISTA#02 SEM DELAY)---------------------\n");
 
 	Busca(21,50,11,false,false);
 	
@@ -155,7 +155,7 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM 
 
 	Busca(21,50,2,false,true);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #02 COM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA (11) LISTA #02 COM DELAY)---------------------\n");
 
 	Busca(21,50,11,false,true);
 	
@@ -170,7 +170,7 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM 
 
 	Busca(42,50,2,false,false);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA#03 SEM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(21) (LISTA#03 SEM DELAY)---------------------\n");
 
 	Busca(42,50,21,false,false);
 	
@@ -184,7 +184,7 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM 
 
 	Busca(42,50,2,false,true);
 	
-    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #03 COM DELAY)---------------------\n");
+    printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(21) (LISTA #03 COM DELAY)---------------------\n");
 
 	Busca(42,50,21,false,true);
 	
@@ -200,10 +200,3 @@ printf("--------------------****ELEMENTO NA POSIÇÃO MEDIANA(6) (LISTA #01 COM 
 
 	
 	
-
-
-
-
-	
-	
-
